@@ -1,0 +1,14 @@
+{
+    " versión " : 2 ,
+    " compilaciones " : [{
+        " src " : " index.js " ,
+        " use " : " @ now / node-server "
+    }],
+    " rutas " : [{
+        " src " : " ^ / (. *) " ,
+        " dest " : " /index.js " ,
+        " métodos " : [
+            " OBTENER " , " PUBLICAR "
+        ]
+    }]
+}
